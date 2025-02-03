@@ -1,0 +1,59 @@
+/* Container Styling */
+.container {
+    max-width: 600px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Styling */
+  h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  /* Form Group Label Styling */
+  .form-group label {
+    font-weight: 600;
+    color: #34495e;
+  }
+  
+  /* Input Field Styling */
+  input.form-control {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Button Styling */
+  button.btn-success {
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Disabled Button */
+  button.btn-success:disabled {
+    background-color: #ccc;
+    border-color: #ccc;
+  }
+  
+  /* Button Hover Effect */
+  button.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #2c3e50;
+  }
+  
+  /* Icon Styling */
+  button i, h2 i {
+    margin-right: 8px;
+  }
+  
+  /* Responsive Styling for Small Screens */
+  @media (max-width: 576px) {
+    .container {
+      width: 90%;
+    }
+  }
+  
